@@ -58,7 +58,6 @@ To set up the project locally, follow these steps:
    PORT=3000
    DATABASE_URL=mongodb://localhost/e_commerce
    SECRET_KEY=mysecretkey
-
    ```
 5. Start the development server:
 
