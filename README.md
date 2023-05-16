@@ -8,7 +8,6 @@ This is an E-commerce website project developed using [Angular](https://angular.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -25,7 +24,6 @@ This is an E-commerce website project developed using [Angular](https://angular.
 - Wishlist: Users can save products to a wishlist for future reference.
 - Reviews and ratings: Allow users to leave reviews and ratings for products.
 
-
 ## Installation
 
 To set up the project locally, follow these steps:
@@ -35,31 +33,40 @@ To set up the project locally, follow these steps:
    ```bash
    git clone https://github.com/Somayeh-Kargosha/E-commerce-Website.git
 
+   ```
+
 2. Navigate to the project directory:
+
    ```bash
    cd E-commerce-Website
 
+   ```
+
 3. Install the dependencies:
+
    ```bash
    npm install
 
+   ```
+
 4. Set up environment variables:
 
-Create a .env file in the root directory.
+- Create a `.env` file in the root directory.
+- Specify the required environment variables in the `.env` file. For example:
 
-Specify the required environment variables in the .env file. For example:
+   ```markfile
+   PORT=3000
+   DATABASE_URL=mongodb://localhost/e_commerce
+   SECRET_KEY=mysecretkey
 
+   ```
+5. Start the development server:
 
-PORT=3000
-DATABASE_URL=mongodb://localhost/e_commerce
-SECRET_KEY=mysecretkey
-Start the development server:
+   ```bash
+   npm start
+   ```
 
-```bash
-
-npm start
-Open your web browser and visit http://localhost:3000 to access the website. 
-
+6.Open your web browser and visit http://localhost:3000 to access the website.
 
 ## Usage
 
@@ -83,6 +90,3 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 5. Ensure all tests pass.
 6. Commit your changes and push to your forked repository.
 7. Create a new pull request with a detailed description of your changes.
-
-
-Please note that this README file is just an example, and the actual project may have more specific information or additional sections based on its development and requirements.
