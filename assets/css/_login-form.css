@@ -1,0 +1,24 @@
+.login-form input[type=email], .login-form input[type=password] {
+    border: none;
+    border-bottom: 2px solid #efefef ;
+    border-radius: 0;
+}
+.login-form label {
+    font-size: 11px;
+}
+#login-form h5 {
+    font-size: 15px;
+}
+#login-form .modal-footer {
+    font-size: 13px;
+    color: rgb(86, 131, 255);
+}
+.login-btn i {
+  vertical-align: -1px;
+}
+.login-btn span {
+  font-size: 15px;
+}
+#exampleInputPassword1::-webkit-input-placeholder, #exampleInputEmail1::-webkit-input-placeholder {
+  font-size: 12px;
+}
