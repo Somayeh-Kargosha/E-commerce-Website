@@ -1,6 +1,6 @@
 # E-commerce-Website
 
-This is an E-commerce website project developed using [Angular](https://angular.io/) and [Node.js](https://nodejs.org/). It provides a platform for users to browse and purchase products online.
+This is an E-commerce website project developed using Html, CSS & Jquery. It provides a platform for users to browse and purchase products online.
 
 ## Table of Contents
 
